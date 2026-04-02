@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using pr50_2.Context;
 
 namespace pr50_2.Pages
 {
@@ -36,7 +37,7 @@ namespace pr50_2.Pages
         {
             // Вызов статического метода Login из класса UserContext
             // Отправляет запрос на сервер и ожидает ответ
-            string? Token = await UserContext.Login(login, password);
+            string Token = await UserContext.Login(login, password);
             // Проверка успешности авторизации
             if (Token == null)
             {

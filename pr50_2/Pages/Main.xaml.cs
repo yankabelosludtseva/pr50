@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
+using pr50_2.Context;
+using pr50_2.Models;
 
 namespace pr50_2.Pages
 {

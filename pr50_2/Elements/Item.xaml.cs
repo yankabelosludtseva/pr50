@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using pr50_2.Context;
+using pr50_2.Models;
 using pr50_2.Pages;
 
 namespace pr50_2.Elements
