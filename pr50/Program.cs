@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen(option => {
     });
     // Получаем путь к XML-файлу с комментариями из кода
     // AppContext.BaseDirectory - директория, где запущено приложение
-    string PathFile = Path.Combine(AppContext.BaseDirectory, "KeePass.xml");
+    string PathFile = Path.Combine(AppContext.BaseDirectory, "pr50.xml");
     // Добавляем XML-комментарии в Swagger для лучшей документации
     option.IncludeXmlComments(PathFile);
 });
