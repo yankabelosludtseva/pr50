@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\" />
+    <Folder Include="Elements\" />
+    <Folder Include="Context\" />
+  </ItemGroup>
+
 </Project>
