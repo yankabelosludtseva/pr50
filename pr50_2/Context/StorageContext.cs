@@ -14,7 +14,7 @@ namespace pr50_2.Context
     public class StorageContext
     {
         /// <summary> Базовый URL API для операций с хранилищами</summary>
-        static string url = "https://localhost:7074/storage/";
+        static string url = "https://localhost:7291/storage/";
 
         /// <summary>
         /// Получение всех записей хранилища для текущего пользователя

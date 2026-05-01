@@ -14,7 +14,7 @@ namespace pr50_2.Context
     public class UserContext
     {
         /// <summary> Базовый URL API для пользовательских операций Статическое поле, об ...
-        static string url = "https://localhost:7074/user/";
+        static string url = "https://localhost:7291/user/";
 
         /// <summary>
         /// Асинхронный метод аутентификации пользователя
